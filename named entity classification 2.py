@@ -153,7 +153,7 @@ def train(model,dataloader_train,dataloader_valid,optimizer,epochs):
             j+=1
             print(f"The batch {j} train accuracy is {(acc)*100} % , F1 score={f1}")
 
-        print(f"\nEpoch {epoch+1}:the training accuracy is {(total_acc_train/train_iterations)*100}% and the F1-score is {total_f1_train/train_iterations}")  
+        print(f"\nEpoch {epoch+1}:the training accuracy is {(total_acc_train/train_iterations)*100}% and the F1-score is {total_f1_train/train_iterations}\n")  
         
         k=0
         total_acc_valid = 0
@@ -182,7 +182,7 @@ def train(model,dataloader_train,dataloader_valid,optimizer,epochs):
                 print(f"The batch {k} validating accuracy is {(acc)*100} % , F1 score={f1}")
 
 
-        print(f"\nEpoch {epoch+1}:the validating ccuracy is {(total_acc_valid/valid_iterations)*100}% and the F1-score is {total_f1_valid/valid_iterations}")        
+        print(f"\nEpoch {epoch+1}:the validating ccuracy is {(total_acc_valid/valid_iterations)*100}% and the F1-score is {total_f1_valid/valid_iterations}\n")        
 
 
 train(model,dataloader_train,dataloader_valid,optimizer,epochs)
