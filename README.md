@@ -62,7 +62,7 @@ To use this code:
 
 bash
 
-python your_script.py
+python named entity classification.py
 
 Dependencies
 
