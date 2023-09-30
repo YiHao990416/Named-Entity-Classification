@@ -33,8 +33,8 @@ To run this code, follow these installation steps:
 
     bash
 
-git clone [repository_url]
-cd [project_directory]
+git clone https://github.com/YiHao990416/Named-Entity-Classification
+
 
 Install the required dependencies:
 
