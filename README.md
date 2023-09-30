@@ -83,6 +83,7 @@ Contributions to this project are welcome. To contribute, follow these steps:
     Make your changes and commit them: git commit -m 'Add some feature'.
     Push to the branch: git push origin feature-name.
     Open a pull request.
+    
 Reference
     https://towardsdatascience.com/custom-named-entity-recognition-with-bert-cf1fd4510804
     
